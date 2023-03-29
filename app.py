@@ -4,7 +4,7 @@
 #from PIL import Image
 #import numpy as np
 
-model = keras.models.load_model("D:\\Downloads\\trained_model.h5")
+model = keras.models.load_model("trained_model.h5")
 
 target_size = (300, 300)
 
