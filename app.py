@@ -1,7 +1,3 @@
-import streamlit as st
-import tensorflow.keras as keras
-from PIL import Image
-import numpy as np
 
 model = keras.models.load_model("trained_model.h5")
 
