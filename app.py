@@ -3,7 +3,10 @@
 #from PIL import Image
 #import numpy as np
 
+import keras
+
 model = keras.models.load_model("trained_model.h5")
+
 
 target_size = (300, 300)
 
