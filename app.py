@@ -1,8 +1,8 @@
-import streamlit as st
-import tensorflow as tf
+#import streamlit as st
+#import tensorflow as tf
 
-from PIL import Image
-import numpy as np
+#from PIL import Image
+#import numpy as np
 
 model = keras.models.load_model("D:\\Downloads\\trained_model.h5")
 
